@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Ma page avec un arrière-plan personnalisé</title>
+    <style>
+      /* styles pour le fond d'écran */
+      body {
+        background-image: url("image/coucher.jpg");
+        background-repeat: repeat;
+        background-size: cover;
+      }
+      
+      /* styles pour le contenu de la page */
+      .content {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #FFF;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+      }
+      
+      /* styles pour le texte */
+      p {
+        font-size: 16px;
+        line-height: 1.5;
+      }
+    </style>
+  </head>
+  <body>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Ma page avec un gif</title>
+    <style>
+      /* styles pour l'image */
+      .gif {
+        float: right;
+        margin-left: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <img class="gif" src="image/lion.gif"alt="Gif">
+  </body>
+</html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Ma page avec un gif</title>
+    <style>
+      /* styles pour l'image */
+      .gif {
+        float: right;
+        margin-left: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <img class="gif" src="image/chevre.gif"alt="Gif">
+  </body>
+</html>
